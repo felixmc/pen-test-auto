@@ -1,6 +1,6 @@
 #!/bin/sh
 
-# pass in wlan interface or assume name "wlan"
+# pass in wlan interface or assume default "wlan0"
 $wlan=${1:-wlan0}
 
 # reset mac address and turn on monitor mode
